@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robofriends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Robofriends</h1>
+        <input class="textfield search" type="text" placeholder="search" />
+    </header>
+    <main>
+        <ul class="cards">
+            <li class="card add-robot">
+                <form method="post" class="add-robot__form">
+                    <input class="textfield" type="text" placeholder="name" name="name"/>
+                    <input class="textfield" type="text" placeholder="username" name="username"/>
+                    <input class="textfield" type="email" placeholder="email" name="email"/>
+                    <input class="button" type="submit" value="Добавить" />
+                </form>
+            </li>
+        </ul>
+    </main>
+    <button class="change-color">Сменить фон</button>
+    <script src="script.js"></script>
+</body>
+</html>
